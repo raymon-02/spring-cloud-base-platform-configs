@@ -1,7 +1,3 @@
-url:
-  generate:
-    preset: 500000
-
 hazelcast:
   member: "localhost:5701"
 

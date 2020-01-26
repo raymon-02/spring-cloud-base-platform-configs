@@ -2,8 +2,8 @@ zuul:
   prefix: /
   routes:
     api-service:
-      path: /api-service/**
-      serviceId: api-server
+      path: /as/**
+      serviceId: api-service
 
 api-service:
   ribbon.ReadTimeout: 5000
